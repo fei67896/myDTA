@@ -23,7 +23,7 @@ for i in people_list:
 #print(len(encoding_list))
 
 #video_capture=cv2.VideoCapture('rtsp://admin:gaozhu123@192.168.31.188:554/stream1')
-video_capture = VideoCaptureThreading('rtsp://admin:gaozhu123@192.168.31.188:554/stream1')
+video_capture = VideoCaptureThreading('rtsp://admin:********')
 video_capture.start()
 video_capture.set(5,15)
 while True:
